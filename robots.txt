@@ -1,0 +1,55 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+
+# CSS, JS, Images
+Allow: /core/style/*.css$
+Allow: /core/style/*.css?
+Allow: /core/scripts/*.js$
+Allow: /core/scripts/*.js?
+Allow: /core/misc/*.gif
+Allow: /core/misc/*.jpg
+Allow: /core/misc/*.jpeg
+Allow: /core/misc/*.png
+Allow: /style/*.css$
+Allow: /style/*.css?
+Allow: /scripts/*.js$
+Allow: /scripts/*.js?
+Allow: /misc/*.gif
+Allow: /misc/*.jpg
+Allow: /misc/*.jpeg
+Allow: /misc/*.png
+
+# Directories
+Disallow: /core/
+Disallow: /lib/
+Disallow: /site/
+Disallow: /tests/
+Disallow: /bin/
+Disallow: /mgmt/
+Disallow: /services/
+Disallow: /config/
+Disallow: /modules/
+Disallow: /themes/
+
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+
+# Paths (clean URLs)
+
+# Paths (no clean URLs)
+Disallow: /index.php/*/
