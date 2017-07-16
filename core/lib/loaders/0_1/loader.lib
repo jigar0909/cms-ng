@@ -1,0 +1,45 @@
+<?php
+
+class loader{
+	public load(){
+	
+	}
+
+	public unload(){
+	
+	}
+	
+	public loadLibrary($lib_name = NULL){
+	
+	}
+	
+	public loadModule($mod_name){
+	
+	}
+	
+	
+	public loadConfig($config_loc){
+	
+	
+	}
+	
+	public unloadLibrary($lib_name = NULL){
+	
+	}
+	
+	public unloadModule($mod_name){
+	
+	}
+	
+	
+	public unloadConfig($config_loc){
+	
+	
+	}
+	
+	
+
+}
+
+
+?>

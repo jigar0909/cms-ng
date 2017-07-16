@@ -1,0 +1,1 @@
+include_once("./core/lib/components/header.inc");

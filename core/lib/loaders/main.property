@@ -1,0 +1,7 @@
+[default]
+name: loaders
+version: 0.1 (beta)
+class-name: loader
+load: load
+unload: unload
+location: 0_1
